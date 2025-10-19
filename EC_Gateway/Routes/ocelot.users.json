@@ -1,0 +1,31 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/utilisateurs",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5065
+        }
+      ],
+      "UpstreamPathTemplate": "/utilisateurs",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "SwaggerKey": "utilisateurs"
+    },
+    {
+      "DownstreamPathTemplate": "/api/utilisateurs/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5065
+        }
+      ],
+      "UpstreamPathTemplate": "/utilisateurs/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "SwaggerKey": "utilisateurs"
+    }
+  ]
+}
+

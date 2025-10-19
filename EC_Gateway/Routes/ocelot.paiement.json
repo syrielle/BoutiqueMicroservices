@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/paiements",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5287
+        }
+      ],
+      "UpstreamPathTemplate": "/paiements",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "SwaggerKey": "paiement"
+    },
+    {
+      "DownstreamPathTemplate": "/api/paiements/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5287
+        }
+      ],
+      "UpstreamPathTemplate": "/paiements/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "SwaggerKey": "paiement"
+    }
+  ]
+}

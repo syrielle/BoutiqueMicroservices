@@ -1,0 +1,14 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "authentification",
+      "Config": [
+        {
+          "Name": "Service Authentification API",
+          "Version": "v1",
+          "Url": "http://localhost:5081/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+} 

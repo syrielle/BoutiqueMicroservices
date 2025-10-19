@@ -1,0 +1,65 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "produits",
+      "Config": [
+        {
+          "Name": "Service Produits",
+          "Version": "v1",
+          "Url": "http://localhost:5013/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "utilisateurs",
+      "Config": [
+        {
+          "Name": "Service Utilisateurs",
+          "Version": "v1",
+          "Url": "http://localhost:5065/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "commandes",
+      "Config": [
+        {
+          "Name": "Service Commandes",
+          "Version": "v1",
+          "Url": "http://localhost:5252/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "panier",
+      "Config": [
+        {
+          "Name": "Service Panier",
+          "Version": "v1",
+          "Url": "http://localhost:5030/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "paiement",
+      "Config": [
+        {
+          "Name": "Service Paiement",
+          "Version": "v1",
+          "Url": "http://localhost:5287/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "authentification",
+      "Config": [
+        {
+          "Name": "Service Authentification",
+          "Version": "v1",
+          "Url": "http://localhost:5081/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
+

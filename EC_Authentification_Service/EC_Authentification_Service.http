@@ -1,0 +1,6 @@
+@EC_Authentification_Service_HostAddress = http://localhost:5081
+
+GET {{EC_Authentification_Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

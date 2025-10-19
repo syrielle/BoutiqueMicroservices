@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/commandes",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5252
+        }
+      ],
+      "UpstreamPathTemplate": "/commandes",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "SwaggerKey": "commandes"
+    },
+    {
+      "DownstreamPathTemplate": "/api/commandes/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5252
+        }
+      ],
+      "UpstreamPathTemplate": "/commandes/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "SwaggerKey": "commandes"
+    }
+  ]
+}

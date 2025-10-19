@@ -1,0 +1,6 @@
+@TemAPI_HostAddress = http://localhost:5206
+
+GET {{TemAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

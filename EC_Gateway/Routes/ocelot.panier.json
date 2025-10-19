@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/paniers",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5030
+        }
+      ],
+      "UpstreamPathTemplate": "/paniers",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "SwaggerKey": "panier"
+    },
+    {
+      "DownstreamPathTemplate": "/api/paniers/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5030
+        }
+      ],
+      "UpstreamPathTemplate": "/paniers/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "SwaggerKey": "panier"
+    }
+  ]
+}
